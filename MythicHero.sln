@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MythicHero", "MythicHero\MythicHero\MythicHero.csproj", "{2C1220BA-7650-4976-B11B-5D1F8907805E}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MythicHeroContent", "MythicHero\MythicHeroContent\MythicHeroContent.contentproj", "{39491FA9-9199-46C2-8E39-21F8273F01AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C1220BA-7650-4976-B11B-5D1F8907805E}.Debug|x86.ActiveCfg = Debug|x86
+		{2C1220BA-7650-4976-B11B-5D1F8907805E}.Debug|x86.Build.0 = Debug|x86
+		{2C1220BA-7650-4976-B11B-5D1F8907805E}.Release|x86.ActiveCfg = Release|x86
+		{2C1220BA-7650-4976-B11B-5D1F8907805E}.Release|x86.Build.0 = Release|x86
+		{39491FA9-9199-46C2-8E39-21F8273F01AB}.Debug|x86.ActiveCfg = Debug|x86
+		{39491FA9-9199-46C2-8E39-21F8273F01AB}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
