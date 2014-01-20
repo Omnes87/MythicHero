@@ -99,8 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MythicHeroContent\MythicHeroContent.contentproj">
-      <Name>MythicHeroContent</Name>
+      <Name>MythicHeroContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{39491FA9-9199-46C2-8E39-21F8273F01AB}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

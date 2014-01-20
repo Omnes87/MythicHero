@@ -8,13 +8,11 @@ namespace MythicHero
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class MythicHeroGame : Microsoft.Xna.Framework.Game
+    public class MythicHeroGame : Game
     {
         private GraphicsDeviceManager graphics;
 
         private SpriteBatch spriteBatch;
-
-        private SharedAssets sharedAssets;
 
         private GameModeBase currentGameMode;
 
@@ -51,12 +49,12 @@ namespace MythicHero
             this.spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // Load shared assets
-            this.sharedAssets = new SharedAssets(this.Content);
+            var sharedAssets = new SharedAssets(this.Content);
 
             // Initialize initial game modes for the first time.
             // TODO: Find a better way to initialize games modes for the first time. A factory?
-            GameMode.StartScreen.GetInstance().Initialize(this.sharedAssets);
-            GameMode.Field.GetInstance().Initialize(this.sharedAssets);
+            GameMode.StartScreen.GetInstance().Initialize(sharedAssets);
+            GameMode.Field.GetInstance().Initialize(sharedAssets);
 
             // Load up the initial game mode's assets.
             // TODO: Find a better way to transitions and Load/Unload content
